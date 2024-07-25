@@ -56,8 +56,6 @@ This repository contains various scripts and notebooks for an image processing a
 ## Conclusion
 Despite numerous challenges and setbacks, including lost data and initially low accuracy, we achieved our target accuracy through persistent experimentation and innovative techniques such as ensemble learning, DenseNet architecture, and transfer learning. Our final model met the project's accuracy requirements, demonstrating significant improvement from our initial attempts.
 
-## References
-- [DnCNN GitHub Repository](https://github.com/ocimakamboj/DnCNN)
 
 ## Usage
 Clone the repository and navigate through the notebooks to understand and execute the code for each part of the project.
