@@ -37,25 +37,6 @@ This repository contains various scripts and notebooks for an image processing a
 
 ## Denoising Part
 
-#### DnCNN Denoiser
-- **Objective**: Denoise images using a Denoising Convolutional Neural Network (DnCNN).
-- **Steps**:
-  1. Load BSDS500 dataset and add Gaussian noise.
-  2. Train the DnCNN model to reconstruct original images from noisy inputs.
-- **Analysis and Conclusions**:
-  - The DnCNN method effectively denoised images, demonstrating the potential of deep learning models for complex denoising tasks.
-  - Required substantial computational resources and training time.
-
-#### Median and Bilateral Filters
-- **Objective**: Address denoising issues in specific scenes using median and bilateral filters.
-- **Steps**:
-  1. Apply median blur to remove salt-and-pepper noise.
-  2. Use a bilateral filter to preserve edges while reducing noise.
-  3. Test combinations of filter parameters to optimize results for specific scenes.
-- **Analysis and Conclusions**:
-  - Median and bilateral filters provided a simple yet effective solution for scenes with specific types of noise.
-  - The bilateral filter's sensitivity to parameters across different images posed a challenge, requiring careful tuning for optimal performance.
-  - Combined use with the CNN denoiser improved detection accuracy in problematic scenes.
 
 ## Results Overview
 
