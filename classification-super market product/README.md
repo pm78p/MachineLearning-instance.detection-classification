@@ -35,7 +35,6 @@ This repository contains various scripts and notebooks for an image processing a
   - MixCut and regularization techniques improved the generalization of the model.
   - Applied to the transfer learning model, these techniques helped achieve robust performance.
 
-## Denoising Part
 
 
 ## Results Overview
